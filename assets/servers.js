@@ -86,64 +86,71 @@ priceNote: {
     ctaType: "request",
   },
  
-  {
-    id: "ellion-web-db-6140",
-    accent: "ai",
-    catLabel: "CPU · Web & Database",
-    name: {
-      ko: "웹·DB 서버 · Xeon Gold 6140",
-      en: "Web & Database Server · Xeon Gold 6140"
-    },
-    location: {
-      ko: "KR · 다우IDC",
-      en: "KR · Korea IDC"
-    },
-    status: "available",
-    tagline: {
-      ko: "18코어 36스레드 Xeon CPU와 125GiB RAM을 갖춘 웹·데이터베이스 서버입니다. Docker, 웹 애플리케이션 및 개발 환경에 적합합니다.",
-      en: "Xeon server with 18 cores, 36 threads and 125 GiB RAM, suitable for web applications, databases, Docker and development."
-    },
-    specs: [
-      {
-        k: "CPU",
-        ko: "Intel Xeon Gold 6140 · 18코어 / 36스레드 (2.3 / 3.7 GHz)",
-        en: "Intel Xeon Gold 6140 · 18 cores / 36 threads (2.3 / 3.7 GHz)"
-      },
-      {
-        k: "GPU",
-        ko: "연산용 GPU 없음",
-        en: "No compute GPU"
-      },
-      {
-        k: "RAM",
-        ko: "125GiB (약 128GB급)",
-        en: "125 GiB (approx. 128 GB class)"
-      },
-      {
-        k: "Storage",
-        ko: "OS 약 898GB + 데이터 약 1.6TB",
-        en: "Approx. 898 GB OS + 1.6 TB data"
-      },
-      {
-        k: "Network",
-        ko: "인터넷 10Mbps 공유 · 실제 속도 및 보장 대역폭 확인 필요",
-        en: "10Mbps shared Internet · actual speed and guaranteed bandwidth to be verified"
-      },
-      {
-        k: "Access",
-        ko: "Linux · SSH (OS 변경 협의)",
-        en: "Linux · SSH (OS changes on request)"
-      }
-    ],
-    priceKrw: 150000,
-    priceUsd: null,
-    priceNote: {
-  ko: "",
-  en: ""
-    },
-    os: ["Ubuntu 24.04 LTS"],
-    ctaType: "request"
+  
+{
+  id: "ellion-web-db-6140",
+  accent: "ai",
+  catLabel: "CPU · Bare Metal",
+  name: {
+    ko: "Supermicro Xeon Gold 6140 베어메탈 서버",
+    en: "Supermicro Xeon Gold 6140 Bare Metal Server"
   },
+  location: {
+    ko: "KR · 다우IDC",
+    en: "KR · Korea IDC"
+  },
+  status: "available",
+  tagline: {
+    ko: "Supermicro X11DPU 기반의 독립형 물리 서버입니다. Intel Xeon Gold 6140 18코어 36스레드 CPU와 128GB급 메모리를 탑재하여 가상화, Docker, 개발 및 다양한 서버 워크로드에 활용할 수 있습니다.",
+    en: "Dedicated bare metal server based on the Supermicro X11DPU motherboard, featuring an Intel Xeon Gold 6140 CPU with 18 cores, 36 threads and 128 GB-class memory. Suitable for virtualization, Docker, development and general server workloads."
+  },
+  specs: [
+    {
+      k: "CPU",
+      ko: "Intel Xeon Gold 6140 ×1 · 18코어 / 36스레드 (2.3 / 3.7 GHz)",
+      en: "Intel Xeon Gold 6140 ×1 · 18 cores / 36 threads (2.3 / 3.7 GHz)"
+    },
+    {
+      k: "Mainboard",
+      ko: "Supermicro X11DPU Rev 1.10",
+      en: "Supermicro X11DPU Rev 1.10"
+    },
+    {
+      k: "GPU",
+      ko: "연산용 GPU 없음",
+      en: "No compute GPU"
+    },
+    {
+      k: "RAM",
+      ko: "125GiB (128GB급)",
+      en: "125 GiB (128 GB class)"
+    },
+    {
+      k: "Storage",
+      ko: "RAID 논리 디스크 약 1.6TB + 931GB · 상세 구성 확인 필요",
+      en: "RAID logical disks approx. 1.6 TB + 931 GB · physical configuration pending verification"
+    },
+    {
+      k: "Network",
+      ko: "1Gbps 연결 포트 · 공유 인터넷 회선 (속도 비보장)",
+      en: "1 Gbps link port · shared Internet connection (bandwidth not guaranteed)"
+    },
+    {
+      k: "Access",
+      ko: "Ubuntu Linux · SSH (OS 변경 협의)",
+      en: "Ubuntu Linux · SSH (OS changes on request)"
+    }
+  ],
+  priceKrw: 150000,
+  priceUsd: null,
+  priceNote: {
+    ko: "",
+    en: ""
+  },
+  os: ["Ubuntu 24.04 LTS"],
+  ctaType: "request"
+}
+,
  {
     id: "elgrim-mi325x-8",
     accent: "ai",
