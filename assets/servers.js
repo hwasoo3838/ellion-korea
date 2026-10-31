@@ -47,7 +47,7 @@ window.SERVERS = [
       { k: "GPU", ko: "연산용 GPU 없음", en: "No compute GPU" },
       { k: "RAM", ko: "251 GiB (약 256GB급)", en: "251 GiB (approx. 256 GB class)" },
       { k: "Storage", ko: "447GB + 1.8TB RAID 논리 볼륨 · 실제 RAID 레벨 확인 필요", en: "447 GB + 1.8 TB RAID logical volumes · RAID level to be verified" },
-      { k: "Network", ko: "10GbE 포트 ×2 + 1GbE 포트 ×2 · 인터넷 10Mbps 공유", en: "2×10GbE + 2×1GbE ports · 10Mbps shared Internet" },
+      { k:"Network", ko:"1Gbps 연결 포트 · 다운로드 실측 25~48Mbps", en:"1Gbps port · measured download 25–48Mbps" },
       { k: "Access", ko: "Ubuntu 24.04.3 LTS · SSH", en: "Ubuntu 24.04.3 LTS · SSH" },
     ],
    priceKrw: 290000,
@@ -76,7 +76,7 @@ priceNote: {
       { k: "GPU", ko: "NVIDIA RTX A4000 16GB GDDR6 (Ampere)", en: "NVIDIA RTX A4000 16 GB GDDR6 (Ampere)" },
       { k: "RAM", ko: "251 GB DDR4 ECC", en: "251 GB DDR4 ECC" },
       { k: "Storage", ko: "3.5 TB 시스템 디스크 + 14.6 TB RAID", en: "3.5 TB system disk + 14.6 TB RAID" },
-      { k: "Network", ko: "인터넷 10Mbps 공유 · 전용 IPv4 1개", en: "10Mbps shared Internet · 1 dedicated IPv4" },
+      { k:"Network", ko:"1Gbps 연결 포트 · 다운로드 실측 25~48Mbps", en:"1Gbps port · measured download 25–48Mbps" },
       { k: "Access", ko: "Root / SSH · 원격 재설치 지원", en: "Root / SSH · remote reinstall" },
     ],
     priceKrw: null, // 시트에서 덮어씀. null 이면 "가격 문의"
