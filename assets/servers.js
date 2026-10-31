@@ -92,8 +92,8 @@ priceNote: {
   accent: "ai",
   catLabel: "CPU · Bare Metal",
   name: {
-    ko: "Supermicro Xeon Gold 6140 베어메탈 서버",
-    en: "Supermicro Xeon Gold 6140 Bare Metal Server"
+ko: "Supermicro Xeon Gold 6140 베어메탈 서버 | 다운로드 실측 25~48Mbps",
+en: "Supermicro Xeon Gold 6140 Bare Metal Server | Measured Download 25–48Mbps"
   },
   location: {
     ko: "KR · 다우IDC",
