@@ -130,11 +130,7 @@ en: "Supermicro Xeon Gold 6140 Bare Metal Server | Measured Download 25–48Mbps
       ko: "RAID 논리 디스크 약 1.6TB + 931GB · 상세 구성 확인 필요",
       en: "RAID logical disks approx. 1.6 TB + 931 GB · physical configuration pending verification"
     },
-    {
-      k: "Network",
-      ko: "1Gbps 연결 포트 · 공유 인터넷 회선 (속도 비보장)",
-      en: "1 Gbps link port · shared Internet connection (bandwidth not guaranteed)"
-    },
+{ k:"Network", ko:"1Gbps 연결 포트 · 다운로드 실측 25~48Mbps", en:"1Gbps port · measured download 25–48Mbps" },,
     {
       k: "Access",
       ko: "Ubuntu Linux · SSH (OS 변경 협의)",
